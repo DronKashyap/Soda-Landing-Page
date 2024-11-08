@@ -104,10 +104,10 @@ function Hero()  {
 
 <div className='grid mt-10'> 
     <div className='grid h-screen place-items-center'> 
-    <div className='grid auto-rows-min place-items-center text-center'>
-      <h1 className=' text-7xl font-black uppercase leading-[.8] text-orange-500 md:text-[9rem] lg:text-[13rem]'> Live Gutsy </h1>
-      <h2 className=' mt-12 text-5xl font-semibold text-sky-950 lg:text-6xl'> Soda Perfected</h2>
-      <h4 className=' text-xl font-normal text-sky-950'> 3-5g sugar. 9g fiber. 5 Delicious Flavours </h4>
+    <div className='hero grid auto-rows-min place-items-center text-center'>
+      <h1 className='hero-header-word text-7xl font-black uppercase leading-[.8] text-orange-500 md:text-[9rem] lg:text-[13rem]'> Live Gutsy </h1>
+      <h2 className='hero-header-word mt-12 text-5xl font-semibold text-sky-950 lg:text-6xl'> Soda Perfected</h2>
+      <h4 className='hero-subheading text-xl font-normal text-sky-950'> 3-5g sugar. 9g fiber. 5 Delicious Flavours </h4>
       <button className='mt-12 text-white font-bold bg-orange-500 rounded-md px-5 py-2 hover:bg-orange-700 hover:scale-125'> Shop Now </button>
     </div></div>
     <div className="text-side relative z-[80] grid h-screen items-center gap-4 md:grid-cols-2">

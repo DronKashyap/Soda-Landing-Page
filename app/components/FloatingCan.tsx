@@ -5,7 +5,7 @@ import { Float } from "@react-three/drei";
 
 import { SodaCan, SodaCanProps } from "./ui/SodaCan";
 import { Group } from "three";
-import { Canvas } from "@react-three/fiber";
+
 
 type FloatingCanProps = {
   flavor?: SodaCanProps["flavor"];
